@@ -1,12 +1,12 @@
 package com.example;
 
-import jakarta.persistence.Id;
-import jakarta.persistence.PrePersist;
-import jakarta.persistence.PreUpdate;
+import javax.persistence.Id;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 
 import java.util.UUID;
 
-@jakarta.persistence.Entity
+@javax.persistence.Entity
 public class Entity {
 
     @Id

@@ -6,7 +6,7 @@ import io.micronaut.context.event.ApplicationEventPublisher;
 import io.micronaut.context.event.StartupEvent;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 
 import java.util.UUID;
 
